@@ -1,0 +1,58 @@
+:root {
+    --primary-color:#d82f25;
+    --white-color: #fff;
+    --black-color:#000;
+    --text-color:#333;
+}
+* {
+    box-sizing: inherit;
+}
+html {
+    box-sizing: border-box;
+    font-size: 62.5;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+}
+.grid {
+    width: 1300px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.grid__row {
+    width: 20%;
+    background-color: #fff;
+    border-radius: 2px;
+}
+.btn-primary {
+    display: flex;
+    width: 200px;
+    height: 42px;
+    border: 1px solid #ee291f;
+    border-radius: 15px;
+    cursor: pointer;
+    align-items: center;
+    margin: 50px auto;
+    background-color: #fff;
+}
+.container-btn-link {
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+.btn-primary-text {
+    color: #d83930;
+    font-size: 0.9rem;
+    font-weight: 700;
+    margin: auto;
+}
+
+
+@keyframes fadedIn {
+    form {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
